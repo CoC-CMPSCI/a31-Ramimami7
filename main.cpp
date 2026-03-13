@@ -16,24 +16,25 @@ int main()
   double totalA, totalB, totalC, total;
   // TODO: Prompt user and read number of Class A tickets sold
   
-  cout << "Tickets sold for Class A " << ticketsA << " Sales Price for A "<< ClassACost << endl;
+ //cout << "Tickets sold for Class A " << ticketsA << " Sales Price for A "<< ClassACost << endl;
   // TODO: Prompt user and read number of Class B tickets sold
   
-  cout << "Tickets sold for Class B  " << ticketsB << "  Sales Price for B "<< ClassBCost << endl;
+  //cout << "Tickets sold for Class B  " << ticketsB << "  Sales Price for B "<< ClassBCost << endl;
   // TODO: Prompt user and read number of Class C tickets sold
   
-  cout << "Tickets sold for Class C  " << ticketsC << "  Sales Price for C "<< ClassCCost << endl;
+  //cout << "Tickets sold for Class C  " << ticketsC << "  Sales Price for C "<< ClassCCost << endl;
   // TODO: Calculate sales for each class
   totalA = ticketsA * ClassACost;
   totalB = ticketsB * ClassBCost;
   totalC = ticketsC * ClassCCost;
   
   // TODO: Calculate total sales
-  total = totalA + totalB + totalC
+  total = totalA + totalB + totalC;
 
   cout << setprecision(2) << fixed;
-  cout << "Tickets sold for Class A " << ticketsA << " Sales Price for A   " << totalA << endl;
-  cout << "Tickets sold for Class B " << ticketsB << " Sales Price for B   " << totalB << endl;
-  cout << "Tickets sold for Class C " << ticketsC << " Sales Price for C   " << totalC << endl;
-  cout << "Total Sales                              " << total << endl;
+
+  cout << "Tickets sold for Class A " << ticketsA << " Sales Price for A " << totalA << endl;
+  cout << "Tickets sold for Class B " << ticketsB << " Sales Price for B " << totalB << endl;
+  cout << "Tickets sold for Class C " << ticketsC << " Sales Price for C " << totalC << endl;
+  cout << "Total Sales " << total << endl;
 }
