@@ -15,7 +15,9 @@ int main()
   // TODO: Declare double variables for total sales per class and grand total
   double totalA, totalB, totalC, total;
   // TODO: Prompt user and read number of Class A tickets sold
-  
+  cout <<"How many tickets sold for A" << endl;
+  cout <<"How many tickets sold for B" << endl;
+  cout <<"How many tickets sold for C" << endl;
  //cout << "Tickets sold for Class A " << ticketsA << " Sales Price for A "<< ClassACost << endl;
   // TODO: Prompt user and read number of Class B tickets sold
   
