@@ -16,8 +16,13 @@ int main()
   double totalA, totalB, totalC, total;
   // TODO: Prompt user and read number of Class A tickets sold
   cout <<"How many tickets sold for A" << endl;
+  cin >> ticketsA;
   cout <<"How many tickets sold for B" << endl;
+  cin >> ticketsB;
+
   cout <<"How many tickets sold for C" << endl;
+  cin >> ticketsC;
+
  //cout << "Tickets sold for Class A " << ticketsA << " Sales Price for A "<< ClassACost << endl;
   // TODO: Prompt user and read number of Class B tickets sold
   
